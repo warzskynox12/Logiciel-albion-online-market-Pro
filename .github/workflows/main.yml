@@ -25,7 +25,7 @@ jobs:
         # pip install requests 
 
     - name: Créer le fichier EXE
-      run: pyinstaller --onefile --windowed main.py 
+      run: pyinstaller --onefile --windowed app.py 
       # Remplacez "main.py" par le nom de votre script principal
 
     - name: Sauvegarder l'exécutable
